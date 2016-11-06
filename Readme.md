@@ -12,4 +12,4 @@ Below are three samples of code to accomplish that:
 - [ ] Transducers - Clojure inspired function composition with transducers-js
 - [ ] Combining highland with transducer - Highland has support for it sooo why not?
 - [ ] ClojureScript - why not
-- [ ] Common Lsip - again, why not
+- [ ] LispyScript - again, why not
