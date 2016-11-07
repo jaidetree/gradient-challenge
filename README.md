@@ -8,7 +8,7 @@ The goal of this is to compare solutions & how a complex algorithm can be modele
 Below are three samples of code to accomplish that:
 - [X] Vanilla ES6 JS
 - [X] Functional Reactive Programming - Accomplished with Highland
-- [ ] Functional Reactive Programming - Accomplished with RxJS
+- [X] Functional Reactive Programming - Accomplished with RxJS
 - [ ] Transducers - Clojure inspired function composition with transducers-js
 - [ ] Combining highland with transducer - Highland has support for it sooo why not?
 - [ ] ClojureScript - why not
