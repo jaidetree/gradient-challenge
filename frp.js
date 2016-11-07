@@ -35,8 +35,9 @@ function calcGradient (hours) {
 function simulateTime (hours=0) {
   _((push, next) => {
     push(null, hours);
-    hours <= 50 && setTimeout(next, 1000);
+    setTimeout(next, 1000);
   })
+  .take(26)
   .flatMap(calcGradient) // pass it to calc gradient
   .map((gradient) => `${format(gradient)} – ${hours} hours after lead\n`)
   .tap(() => hours += 2)
